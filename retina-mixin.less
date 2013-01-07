@@ -1,5 +1,7 @@
 // the retina mixin. An example goes: .at2x(img/header@2x.png, 650px, 150px, top, left, no-repeat, scroll)
 // Put the effective size, it goes width then height
+// A modification of the retina.js less mixin - https://github.com/imulus/retinajs
+
 @highdpi: ~"(-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (min-resolution: 1.5dppx)";
 
 .at2x(@path, @w: auto, @h: auto, @xpos: 0, @ypos: 0, @repeat: no-repeat; @attachment: scroll;) {
